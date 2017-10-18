@@ -97,6 +97,12 @@ requests.cpu     0     2
 requests.memory  0     2Gi 
 ```
 
+Para verificar a cota utilizada:
+
+```sh
+kubectl describe quota resourcequota-NAMESPACE --namespace=NAMESPACE
+```
+
 ## Requisições e Limites (Requests and Limits) padrões por Namespace:
 
 Quando um POD for instanciado sem [valores de request e limit](https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/) serão atribuidos os seguintes valores:
@@ -128,3 +134,7 @@ spec:
     type: Container
 ```
 
+PaRa verificar o LimitRange utilize:
+```sh
+kubectl describe limitrange --namespace=NAMESPACE
+```
