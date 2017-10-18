@@ -97,7 +97,7 @@ requests.cpu     0     2
 requests.memory  0     2Gi 
 ```
 
-## Default Memory/CPU Requests and Limits for a Namespace:
+## Requisições e Limites (Requests and Limits) padrões por Namespace:
 
 Quando um POD for instanciado sem [valores de request e limit](https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/) serão atribuidos os seguintes valores:
 
