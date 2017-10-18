@@ -6,7 +6,7 @@ __Para ter acesso a nuvem CaaS/PaaS k8s (https://tectonic.sj.ifsc.edu.br) entre 
 Utilizamos autenticação [RBAC](https://kubernetes.io/docs/admin/authorization/#rbac-mode) do k8s provida pelo [tectonic-identity](https://coreos.com/tectonic/docs/latest/admin/identity-management.html#rbac-in-tectonic) e vinculamos os usuários a determinados namespaces informados a seguir.
 
 
-## Compreender a motivação para usar namespaces([retirado daqui](https://kubernetes.io/docs/tasks/administer-cluster/namespaces/) e traduzido pelo google translate):
+## Motivação para usar namespaces([retirado daqui](https://kubernetes.io/docs/tasks/administer-cluster/namespaces/) e traduzido pelo google translate):
 
 Um único cluster deve ser capaz de satisfazer as necessidades de múltiplos usuários ou grupos de usuários (uma "comunidade de usuários").
 
@@ -24,8 +24,6 @@ __Cada comunidade de usuários tem sua própria:__
 * Recursos (pods, serviços, controladores de replicação, etc.)
 * Políticas (que podem ou não podem realizar ações em sua comunidade)
 * Restrições (esta comunidade tem permissão dessa quantidade de cota, etc.)
-
-__Um operador de cluster pode criar um espaço de nomes para cada comunidade de usuários exclusivo.__
 
 __O espaço de nomes fornece um escopo exclusivo para:__
 
