@@ -41,11 +41,11 @@ __Os casos de uso incluem:__
 
 ## Possuímos os seguintes namespaces:
 * producao
-* testes
 * desenvolvimento
 * alunos
 * professores
 * ensino
+* pesquisa
 * projetos
 
 ## Foram configuradas as seguintes [Resource Quotas](https://kubernetes.io/docs/concepts/policy/resource-quotas/) (cotas de recurso) para os seguintes namespace:
