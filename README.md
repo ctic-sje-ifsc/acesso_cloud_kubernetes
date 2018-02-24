@@ -134,7 +134,7 @@ spec:
     type: Container
 ```
 
-PaRa verificar o LimitRange utilize:
+Para verificar o LimitRange utilize:
 ```sh
 kubectl describe limitrange --namespace=NAMESPACE
 ```
